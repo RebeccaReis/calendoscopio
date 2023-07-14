@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendoscópio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilo.css">
+    <link rel="stylesheet" href="src/css/respon.css">
+</head>
+<body>
+
+    <header class="head">
+        <img class="logo" src="src/imagens/logo.png" alt="logo sailor moon">
+      
+    </header>
+    <audio id="fundo" src="./src/audios/musicafundo.mp3" autoplay></audio>
+    <main class="selection-persona">
+        <section class="personas">
+            <h1 class="title">
+                Quem vai salvar o Mundo?
+            </h1>
+            <ul class="list-persona">
+                <li class="persona selecionado" 
+                id="sailormoon" data-name="sailormoon" data-description="blalbllbla">
+                    <img  
+                    src="src/imagens/cardsailormoon.jpg" alt="Personagem Sailor Moon">
+                </li>
+                <li class="persona" id="sailorjupiter" data-name="sailorjupiter" data-description="blalbllbla" ><img src="src/imagens/cardsailorjupiter.jpg" alt="Personagem Sailor Jupiter"></li>
+                <li class="persona" id="sailormarte" data-name="sailormarte" data-description="blalbllbla" ><img src="src/imagens/cardsailormarte.jpg" alt="Personagem Sailor Marte"></li>
+                <li class="persona" id="tuxedomask" data-name="tuxedomask" data-description="blalbllbla"><img class="sailor" src="src/imagens/cardtuxedomask.jpg" alt="tuxedo-mask"></li>
+               
+                    <li class="persona" id="sailormercurio"  data-name="sailormercurio" data-description="blalbllbla"><img  src="src/imagens/cardsailormercurio.jpg" alt="Personagem Sailor Mercurio"></li>
+                    <li class="persona" id="sailorvenus" data-name="sailorvenus" data-description="blalbllbla"><img src="src/imagens/cardsailorvenus.jpg" alt="Personagem Sailor venus"></li>
+                    <li class="persona" id="chibimoon" data-name="chibimoon" data-description="blalbllbla"><img src="src/imagens/cardsailorchibiusa.jpg" alt="Personagem chib moon"></li>
+                    <li class="persona" id="luna" data-name="luna" data-description="blalbllbla"><img src="src/imagens/cardluna.jpg" alt="Personagem luna"></li>
+
+            </ul>
+        </section>
+        <section class="select-persona">
+            <img class="big-persona" src="src/imagens/cardsailormoon.png" alt="Personagem Selecionado">
+            <div class="information-persona">
+                <h2 class="name-persona" id="name-persona">
+                    Sailor Moon
+                </h2>
+                <p class="description-persona" id="description-persona">
+                    Lorem ipsum dolor sit amet, consectetur  
+                </p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/javascript/selecao.js"></script>
+</body>
+</html>
